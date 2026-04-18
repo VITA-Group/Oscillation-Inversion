@@ -1,0 +1,14 @@
+model:
+  prompt: 'woman face'
+  num_inference_steps: 100
+  num_predict_steps: 60
+  num_fixed_point_steps: 5
+  num_align_steps: 40
+  device: 'cuda:1'
+  flux_model_id: "black-forest-labs/FLUX.1-schnell"
+  path_fg_image: 'image/car_fg_resize.png'
+  path_bg_image: 'image/car_bg_resize.png'
+  path_target_image: 'image/car_target.png'
+  image_height: 512
+  image_width: 512
+ckpt_path: null
