@@ -24,7 +24,7 @@ We explore the oscillatory behavior observed in inversion methods applied to lar
 ## Method Overview
 
 <p align="center">
-  <img src="docs/data/teaser.pdf" width="90%">
+  <img src="docs/data/teaser.png" width="90%">
 </p>
 
 **Key idea:** Fixed-point iteration in flow models causes oscillation between semantic clusters rather than convergence. We exploit this behavior through *Group Inversion* — simultaneously inverting a group of images to push outputs toward the high-quality data manifold.
